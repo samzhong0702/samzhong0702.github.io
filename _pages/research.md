@@ -1,30 +1,15 @@
 ---
 layout: archive
-title: "Research"
+title: ""
 permalink: /research/
 author_profile: true
 header:
   og_image: "research/ecdf.png"
 ---
 
-My research falls into two main areas: understanding the influence of geography
-on actor behavior before, during, and after civil conflict, and developing new
-tools to improve the study of institutions (both formal and informal) in peace
-and conflict. One strand of research in this first area explores how the
-territories that ethnic groups inhabit shape rebel group formation and condition
-their relationship with the state. My interest in geography also informs
-projects on active conflicts including the targeting of UN peacekeepers by
-insurgent groups, civilian victimization after rebel territorial conquest, and
-communal violence in fragile settings.
+# Publications 
+**Z. Zhong**, M. Zheng, H. Mai, J. Zhao, X. Liu, [”Cancer image classification based on DenseNet model”](https://iopscience.iop.org/article/10.1088/1742-6596/1651/1/012143), Journal of Physics: Conference Series (Vol. 1651). The 2020 2nd International Conference on Artificial Intelligence Technologies and Applications (ICAITA 2020) 
 
-My other main research agenda uses advanced methods to develop new measures of
-institutions. One project uses Bayesian item response theory to measure the
-strength of peace agreements as a latent variable and free researchers from
-post-treatment bias caused by using the duration of agreements as a proxy for
-their strength. In others, I apply unsupervised learning techniques to over a
-billion observations of product-level international trade data to measure
-economic interdependence and illicit economic exchange.
+# Thesis
 
-In a new avenue of research, I leverage social media data to explore
-participation in extremist movements across multiple contexts, gaining insight
-into the early stages of radicalization.
+[Exact recovery in stochastic coblock models](https://samzhong0702.github.io/files/Thesis.pdf)
