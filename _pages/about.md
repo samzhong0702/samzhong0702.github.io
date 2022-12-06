@@ -17,7 +17,7 @@ My **research interest** generally lies in
 
 - Mathematics of Data Science: Optimization, Statistics, Inverse Problems, Spectral methods
 - Machine Learning: Representation Learning, Clustering, Data Visualization
-- Graphs and Networks: Community Detecrtion, Graph Matching, Procrustes Matching
+- Graphs and Networks: Community Detection, Graph Matching, Procrustes Matching
 - Deep Learning: Theory, Application in Computer Vision
 
 
