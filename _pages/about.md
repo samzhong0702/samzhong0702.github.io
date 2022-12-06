@@ -13,7 +13,7 @@ I'm currently a second-year Ph.D. student at [Center for Data Science, New York 
 
 
 
-My **research interest** genrally lies in 
+My **research interest** generally lies in 
 
 - Mathematics of Data Science: Optimization, Statistics, Inverse Problems, Spectral methods
 - Machine Learning: Representation Learning, Clustering, Data Visualization
