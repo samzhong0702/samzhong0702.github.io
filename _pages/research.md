@@ -10,6 +10,6 @@ header:
 # Publications 
 **Z. Zhong**, M. Zheng, H. Mai, J. Zhao, X. Liu, [”Cancer image classification based on DenseNet model”](https://iopscience.iop.org/article/10.1088/1742-6596/1651/1/012143), Journal of Physics: Conference Series (Vol. 1651). The 2020 2nd International Conference on Artificial Intelligence Technologies and Applications (ICAITA 2020) 
 
-# Thesis
+# Undergraduate Thesis
 
 [Exact recovery in stochastic coblock models](https://samzhong0702.github.io/files/Thesis.pdf)

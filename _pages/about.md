@@ -15,9 +15,10 @@ I'm currently a second-year Ph.D. student at [Center for Data Science, New York 
 
 My **research interest** genrally lies in 
 
-- Mathematics of Data Science: Optimization, Statistics, Inverse Problems
-- Representation Learning: 
-- Graphs and Networks: 
+- Mathematics of Data Science: Optimization, Statistics, Inverse Problems, Spectral methods
+- Machine Learning: Representation Learning, Clustering, Data Visualization
+- Graphs and Networks: Community Detecrtion, Graph Matching, Procrustes Matching
+- Deep Learning: Theory, Application in Computer Vision
 
 
 
