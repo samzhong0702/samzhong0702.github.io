@@ -11,7 +11,7 @@ header:
 
 **Z. Zhong**, S. Ling, ["Improved theoretical guarantee for rank aggregation via spectral method"](https://arxiv.org/abs/2309.03808). In submission.
 
-**Z. Zhong**, X. Pan, Q. Lei, "A Theoretical Analysis of Multi-source Domain Adaptation with Meta Representation Learning". In submission.
+**Z. Zhong**, X. Pan, Q. Lei, ["Bridging Domains with Approximately Shared Features"](https://arxiv.org/abs/2403.06424#:~:text=Multi%2Dsource%20domain%20adaptation%20aims,optimal%20strategy%20for%20feature%20selection.). In submission.
 
 # Publications 
 
