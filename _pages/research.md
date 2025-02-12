@@ -11,9 +11,9 @@ header:
 
 **Z. Zhong**, S. Ling, ["Uncertainty Quantification of Spectral Estimator and MLE for Orthogonal Group Synchronization"](https://arxiv.org/abs/2408.05944). In submission.
 
-**Z. Zhong**, X. Pan, Q. Lei, ["Bridging Domains with Approximately Shared Features"](https://arxiv.org/abs/2403.06424#:~:text=Multi%2Dsource%20domain%20adaptation%20aims,optimal%20strategy%20for%20feature%20selection.). In submission.
-
 # Publications 
+
+**Z. Zhong**, X. Pan, Q. Lei, ["Bridging Domains with Approximately Shared Features"](https://arxiv.org/abs/2403.06424#:~:text=Multi%2Dsource%20domain%20adaptation%20aims,optimal%20strategy%20for%20feature%20selection.). *To appear at AISTATS 2025*.
 
 **Z. Zhong**, S. Ling, ["Improved theoretical guarantee for rank aggregation via spectral method"](https://doi.org/10.1093/imaiai/iaae020). *Information and Inference: A Journal of the IMA*, 2024.
 
