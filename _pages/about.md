@@ -23,5 +23,5 @@ My research centers on **reliable estimation and uncertainty quantification**, f
 
 
 
-This is my [CV](https://samzhong0702.github.io/files/CV.pdf).
+My CV is available [here](/cv/).
 
