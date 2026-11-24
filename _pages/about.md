@@ -15,12 +15,11 @@ I received my Ph.D. in Data Science from [New York University](https://cds.nyu.e
 
 
 
-My **research interest** generally lies in 
+My research centers on **reliable estimation and uncertainty quantification**, from statistical theory to large-scale applications:
 
-- Mathematics of Data Science: Optimization, Statistics, Inverse Problems, Spectral methods
-- Machine Learning: Representation Learning, Clustering, Data Visualization
-- Graphs and Networks: Community Detection, Graph Matching, Procrustes Matching
-- Deep Learning: Theory, Application in Computer Vision
+- **High-dimensional statistics and spectral methods:** entrywise estimation, uncertainty quantification, group synchronization, rank aggregation
+- **Trustworthy machine learning:** calibration, domain adaptation under distribution shift, and the reliability of LLM, RAG and agent systems
+- **Applied statistical learning:** conversion modeling from sparse and delayed signals, feature learning, and measurement in online advertising
 
 
 
