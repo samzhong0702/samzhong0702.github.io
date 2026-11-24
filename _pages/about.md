@@ -9,7 +9,9 @@ redirect_from:
 ---
 
 
-I'm currently a fourth-year Ph.D. student at [NYU Shanghai](https://shanghai.nyu.edu/) and [Center for Data Science, New York University](https://cds.nyu.edu/) advised by [Prof. Shuyang Ling](https://cims.nyu.edu/~sling/index.html). Before joining Center for Data Science, I received a bachelor's degree in Mathematics from [New York University Shanghai](https://shanghai.nyu.edu/) with the senior thesis on community detection in directed graphs ([Exact recovery in stochastic coblock models](https://samzhong0702.github.io/files/Thesis.pdf) ) advised by  [Prof. Shuyang Ling](https://cims.nyu.edu/~sling/index.html).
+I'm an Applied Scientist at [The Trade Desk](https://www.thetradedesk.com/), where I work on conversion modeling: turning sparse and delayed user signals into features and statistical learning models that estimate the probability of a conversion. These estimates feed measurement and bidding decisions across the platform, so much of my work is about keeping them accurate and stable at scale.
+
+I received my Ph.D. in Data Science from [New York University](https://cds.nyu.edu/) in May 2026, advised by [Prof. Shuyang Ling](https://cims.nyu.edu/~sling/index.html) at [NYU Shanghai](https://shanghai.nyu.edu/) and the [Center for Data Science](https://cds.nyu.edu/). Before that, I received a bachelor's degree in Mathematics from [New York University Shanghai](https://shanghai.nyu.edu/) with the senior thesis on community detection in directed graphs ([Exact recovery in stochastic coblock models](https://samzhong0702.github.io/files/Thesis.pdf)) advised by Prof. Shuyang Ling.
 
 
 

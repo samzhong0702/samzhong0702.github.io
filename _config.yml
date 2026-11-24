@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Ziliang (Samuel) Zhong"
   avatar           : "profile.png"
-  bio              : "Ph.D. student at NYU Shanghai / CDS, NYU"
-  location         : "New York / Shanghai"
-  employer         :
+  bio              : "Applied Scientist at The Trade Desk"
+  location         : "Shanghai"
+  employer         : "The Trade Desk"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=S-rSjJAAAAAJ&hl=en"
   email            :  "zz1706@nyu.edu"
