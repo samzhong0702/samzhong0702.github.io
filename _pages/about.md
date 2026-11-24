@@ -20,8 +20,3 @@ My research centers on **reliable estimation and uncertainty quantification**, f
 - **High-dimensional statistics and spectral methods:** entrywise estimation, uncertainty quantification, group synchronization, rank aggregation
 - **Trustworthy machine learning:** calibration, domain adaptation under distribution shift, and the reliability of LLM, RAG and agent systems
 - **Applied statistical learning:** conversion modeling from sparse and delayed signals, feature learning, and measurement in online advertising
-
-
-
-My CV is available [here](/cv/).
-
