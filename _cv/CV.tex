@@ -1,0 +1,109 @@
+% Source for files/CV.pdf. Build: pdflatex CV.tex, then copy CV.pdf to ../files/CV.pdf
+% (the leading underscore keeps Jekyll from publishing this folder).
+\documentclass[letterpaper,11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[hmargin=0.65in,vmargin=0.55in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\definecolor{linkblue}{RGB}{0,140,210}
+\hypersetup{colorlinks=true,urlcolor=linkblue,linkcolor=linkblue,pdftitle={Ziliang (Samuel) Zhong - CV},pdfauthor={Ziliang (Samuel) Zhong}}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{1em}
+\titleformat{\section}{\scshape\large}{}{0pt}{}[\vspace{-7pt}\rule{\linewidth}{0.6pt}]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\setlist[itemize]{leftmargin=2.2em,topsep=1pt,itemsep=0pt,parsep=0pt}
+
+% \entry{title}{right}{subtitle}{right subtitle}
+\newcommand{\entry}[4]{\par\vspace{2pt}\hspace*{0.8em}\textbf{#1}\hfill #2\\\hspace*{0.8em}\textit{#3}\hfill\textit{#4}\par}
+\newcommand{\pub}[1]{\par\vspace{2pt}\hangindent=0.8em\hspace*{0.8em}#1\par}
+
+\begin{document}
+
+\begin{center}
+{\Huge\bfseries Ziliang (Samuel) Zhong}\\[5pt]
+Applied Scientist, The Trade Desk \,|\, Shanghai\\[2pt]
+\href{mailto:zz1706@nyu.edu}{zz1706@nyu.edu} \,|\,
+\href{https://samzhong0702.github.io}{Homepage} \,|\,
+\href{https://scholar.google.com/citations?user=S-rSjJAAAAAJ}{Google Scholar} \,|\,
+\href{https://www.linkedin.com/in/ziliang-zhong-459412179/}{LinkedIn} \,|\,
+\href{https://github.com/samzhong0702}{GitHub}
+\end{center}
+
+\section*{Education}
+\entry{New York University}{New York / Shanghai}{Ph.D.\ in Data Science}{2021 -- May 2026}
+\begin{itemize}
+  \item Advisor: Prof.\ \href{https://cims.nyu.edu/~sling/index.html}{Shuyang Ling} (NYU Shanghai / Center for Data Science)
+  \item Dissertation: \textit{High Dimensional Statistics With Structured Signals: Sharp Entrywise Estimation and Uncertainty Quantification}
+  \item NYU Shanghai Doctoral Fellowship, 2021--2026
+\end{itemize}
+\entry{New York University}{New York / Shanghai}{B.S.\ in Mathematics and Data Science}{Sep.\ 2017 -- May 2021}
+\begin{itemize}
+  \item Major GPA 3.96/4.00; Dean's List
+\end{itemize}
+
+\section*{Experience}
+\entry{Applied Scientist}{Sep.\ 2026 -- Present}{The Trade Desk}{Shanghai}
+\begin{itemize}
+  \item Research and development on privacy-preserving machine learning for conversion prediction in large-scale digital advertising.
+\end{itemize}
+\entry{Data Scientist (Research Intern)}{Jun.\ 2025 -- Aug.\ 2025}{The Trade Desk}{Shanghai}
+\begin{itemize}
+  \item Designed a privacy-preserving pretraining framework for conversion prediction that uses advertiser intent data and LLM-generated proxy features, so models can be trained without sensitive user-level conversion data.
+  \item Built Scala/Spark pipelines over billions of records to generate privacy-constrained training data, including cold-start coverage for advertisers without conversion history.
+  \item Developed evaluation frameworks (gAUC, coverage, distributional metrics) to validate model robustness across live-auction conditions.
+\end{itemize}
+\entry{Data Scientist (Research Intern)}{Jun.\ 2024 -- Oct.\ 2024}{ByteDance}{Shanghai}
+\begin{itemize}
+  \item Built data-driven pacing models across 35 advertising verticals, replacing uniform pacing with statistically grounded traffic-curve models that improved click-through rates and advertising efficiency.
+  \item Applied budget-allocation optimization to improve campaign performance.
+\end{itemize}
+
+\section*{Research Highlights}
+\begin{itemize}
+  \item \textbf{Perturbation theory on matrix manifolds (Ph.D.\ dissertation).} A Riemannian Newton framework for non-asymptotic perturbation analysis of estimators on matrix manifolds: distribution-free $\ell_2$-type guarantees under deterministic perturbations and, under probabilistic noise, blockwise distributional guarantees and valid confidence regions. Applications to spectral ranking, eigenvector perturbation (sharpening the Davis--Kahan theorem) and orthogonal group synchronization; an extension to singular vector perturbation and sub-Gaussian noise is in preparation.
+  \item \textbf{Uncertainty quantification for group synchronization.} Distributional theory for the spectral estimator and MLE in orthogonal group synchronization, enabling confidence intervals and hypothesis tests for applications such as cryo-EM, robotics and computer vision (\textit{IEEE Trans.\ Inf.\ Theory}, 2026).
+  \item \textbf{Spectral ranking.} Near-optimal sample complexity guarantees for rank aggregation from noisy pairwise comparisons (\textit{Information and Inference}, 2024).
+  \item \textbf{Domain adaptation.} Approximately shared, rather than strictly invariant, features provably support generalization under distribution shift (AISTATS 2025).
+\end{itemize}
+
+\section*{Publications}
+\pub{[9] \textbf{Z.\ S.\ Zhong}, S.\ Ling, ``Uncertainty Quantification of Spectral Estimator and MLE for Orthogonal Group Synchronization,'' \textit{IEEE Transactions on Information Theory}, 2026. \href{https://doi.org/10.1109/TIT.2026.3742073}{DOI}.}
+\pub{[8] \textbf{Z.\ S.\ Zhong}, C.\ Li, H.\ Rao, ``Trajectory Reliability Prediction for Generalist AI Agents: Tool-Use Failure Analysis and Success Forecasting on ZClawBench,'' \textit{Journal of Technology Informatics and Engineering}, 5(1):341--360, 2026. \href{https://doi.org/10.51903/jtie.v5i1.539}{DOI}.}
+\pub{[7] \textbf{Z.\ S.\ Zhong}, Q.\ Wu, G.\ Mi, ``Uncertainty-Aware Medical Image Explanation Cards: LLM-Generated Visual Explanations for AI-Assisted Radiology Interfaces,'' \textit{International Journal of Graphic Design}, 3(2):415--436, 2025. \href{https://doi.org/10.51903/ijgd.v3i2.3616}{DOI}.}
+\pub{[6] \textbf{Z.\ S.\ Zhong}, J.\ Chen, E.\ Zhong, X.\ Sun, ``Evidence-Calibrated RAG for Unanswerable Question Answering: Retrieval Coverage, Abstention Calibration, and Hallucination-Proxy Analysis on SQuAD 2.0,'' \textit{Journal of Technology Informatics and Engineering}, 4(2):502--520, 2025. \href{https://doi.org/10.51903/jtie.v4i2.536}{DOI}.}
+\pub{[5] \textbf{Z.\ S.\ Zhong}, X.\ Pan, Q.\ Lei, ``Bridging Domains with Approximately Shared Features,'' \textit{Proceedings of the 28th International Conference on Artificial Intelligence and Statistics (AISTATS)}, PMLR 258:559--567, 2025. \href{https://proceedings.mlr.press/v258/zhong25a.html}{Link}.}
+\pub{[4] \textbf{Z.\ S.\ Zhong}, S.\ Ling, ``Improved Theoretical Guarantee for Rank Aggregation via Spectral Method,'' \textit{Information and Inference: A Journal of the IMA}, 13(3):iaae020, 2024. \href{https://doi.org/10.1093/imaiai/iaae020}{DOI}.}
+\pub{[3] \textbf{Z.\ S.\ Zhong}, L.\ Zhang, D.\ Ma, ``Spatial RAG for Urban Crash Hotspot Discovery and Safety Countermeasure Recommendation,'' \textit{Journal of Advanced Computing Systems}, 3(12):45--61, 2023. \href{https://doi.org/10.69987/jacs.2023.31206}{DOI}.}
+\pub{[2] \textbf{Z.\ S.\ Zhong}, R.\ Ma, H.\ Zhao, ``Human-Uncertainty Distillation for Calibrated Vision Models on CIFAR-10H,'' \textit{Journal of Advanced Computing Systems}, 3(2):77--89, 2023. \href{https://doi.org/10.69987/jacs.2023.30206}{DOI}.}
+\pub{[1] \textbf{Z.\ Zhong}, M.\ Zheng, H.\ Mai, J.\ Zhao, X.\ Liu, ``Cancer Image Classification Based on DenseNet Model,'' \textit{Journal of Physics: Conference Series}, 1651(1):012143, 2020. Presented at ICAITA 2020. \href{https://doi.org/10.1088/1742-6596/1651/1/012143}{DOI}.}
+
+\section*{Peer Review}
+\begin{itemize}
+  \item \textbf{Journals:} IEEE Transactions on Information Theory; SIAM Journal on Mathematics of Data Science; Information and Inference: A Journal of the IMA; Journal of Global Optimization
+  \item \textbf{Conferences and workshops:} Graph Signal Processing Workshop 2025; NeurIPS 2024 Workshop on Safe Generative AI; AAAI Undergraduate Consortium (AAAI-25, AAAI-26)
+\end{itemize}
+
+\section*{Teaching and Mentorship}
+\begin{itemize}
+  \item Teaching Assistant, Mathematical Statistics, New York University, 2023
+  \item Mentored undergraduate and pre-college students in data science research
+\end{itemize}
+
+\section*{Awards and Honors}
+\begin{itemize}
+  \item NYU Shanghai Doctoral Fellowship, 2021--2026
+  \item Kaggle Bronze Medal, SIIM-ISIC Melanoma Classification
+  \item Dean's List, New York University
+\end{itemize}
+
+\section*{Skills}
+\begin{itemize}
+  \item \textbf{Programming:} Python, Scala, Apache Spark
+  \item \textbf{Methods:} spectral methods, M-estimation on matrix manifolds, Riemannian optimization, non-asymptotic perturbation theory, uncertainty quantification, distributionally robust and transfer learning, deep learning
+\end{itemize}
+
+\end{document}
